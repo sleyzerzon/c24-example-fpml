@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<dataModel IOversion="3.1.0" attributeFormDefault="Unqualified" elementFormDefault="Qualified" encoding="UTF-8" encrypted="false" hibernateIDGeneratorMethodDefault="native" inputMask="XML" outputMask="XML" targetNamespace="http://www.c24.biz/examples/fpml/BigFileOfTrades" name="BigFileOfTrades.dod" version="0.0.5">
+  <element identifier="false" max="1" min="1" name="Batch">
+    <type>
+      <complexType abstract="false" byteAlignment="No Alignment" contentModel="Sequence" excludeFromDatabase="false" processAsBatch="false" specialisation="Generic complex" specifyStructure="true" name="Batch">
+        <element identifier="false" max="-1" min="1" typeRef="FpML5-4-confirmation/fpml-confirmation-processes-5-4.dod#RequestConfirmation" name="requestConfirmation"></element>
+      </complexType>
+    </type>
+  </element>
+  <import ref="FpML5-4-confirmation/fpml-main-5-4.dod"></import>
+  <namespace prefix="ns1" uri="http://www.fpml.org/FpML-5/confirmation"></namespace>
+</dataModel>

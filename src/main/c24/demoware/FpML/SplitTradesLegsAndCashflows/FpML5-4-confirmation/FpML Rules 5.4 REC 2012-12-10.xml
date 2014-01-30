@@ -1,0 +1,2986 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<io-import-mapping>
+
+<!-- Rules application file for the confirmation view -->
+
+    <!--Packages-->
+
+    <map action="set-property-value">
+		<target model="fpml-asset-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-business-events-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-cd-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+    
+    <map action="set-property-value">
+		<target model="fpml-confirmation-processes-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-doc-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-enum-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-eqd-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-eq-shared-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-fx-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+    
+    <map action="set-property-value">
+		<target model="fpml-generic-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-ird-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-main-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-mktenv-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-msg-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-return-swaps-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-riskdef-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-shared-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+    
+    <map action="set-property-value">
+		<target model="fpml-standard-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-valuation-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+<!-- FpML 4.3 WD 2007-07-30 - valuation-base-4-4.xsd removed -->
+
+    <map action="set-property-value">
+		<target model="fpml-credit-event-notification-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+<!-- new schemas in FpML WD 4.3 2007-07-05 -->
+
+    <map action="set-property-value">
+		<target model="fpml-bond-option-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-option-shared-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+
+<!-- new schemas in FpML WD 4.4 2007-11-16 -->
+
+    <map action="set-property-value">
+		<target model="fpml-correlation-swaps-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-dividend-swaps-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+    <map action="set-property-value">
+		<target model="fpml-variance-swaps-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+
+<!-- new schemas in FpML WD 4.4 2007-12-24 -->
+    <!-- <map action="set-property-value">
+		<target model="fpml-loan-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map> -->
+
+    <map action="set-property-value">
+		<target model="xmldsig-core-schema.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+
+<!-- new schemas in FpML REC 4.9 20011-02-24 -->
+
+    <map action="set-property-value">
+		<target model="fpml-com-5-4.dod" type="Data Model"></target>
+		<property type="Target Package">org.fpml.x2012.fpml54.rec20121210.confirmation</property>
+    </map>
+
+
+    <!--Predicates-->
+	<map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-1 CD Check</source>
+	    <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+	<map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-2 EQD Check</source>
+	    <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+	<map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-3 Equity Option Check</source>
+	    <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+	<map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-4 Broker Equity Option Check</source>
+	    <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+	<map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-5 IRD Check</source>
+	    <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+	<map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-6 ISDA1999Credit</source>
+	    <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+	<map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-7 ISDA2003</source>
+	    <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+	<map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-8 ShortForm</source>
+	    <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+	<map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-9 LongForm</source>
+	    <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+	<map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-10 SingleName</source>
+	    <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-11 CreditIndex</source>
+	    <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-13 quotationAmount</source>
+	    <target model="fpml-cd-5-4.dod" type="Data Type">CashSettlementTerms</target>
+    </map>
+
+   <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-14 minimumQuotationAmount</source>
+	    <target model="fpml-cd-5-4.dod" type="Data Type">CashSettlementTerms</target>
+    </map>
+
+   <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-15 SameCurr - EqtOpt and EqtDerivShortFormBase</source>
+	    <target model="fpml-eqd-5-4.dod" type="Data Type">EquityOption</target>
+    </map>
+
+   <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-15 SameCurr - EqtOpt and EqtDerivShortFormBase</source>
+	    <target model="fpml-eqd-5-4.dod" type="Data Type">EquityDerivativeShortFormBase</target>
+    </map>
+
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-17 SameCurr - EqtOpt and EqtOptTransSupp and BrokerEqtOpt</source>
+	    <target model="fpml-eqd-5-4.dod" type="Data Type">EquityOptionTransactionSupplement</target>
+    </map>
+    
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-17 SameCurr - EqtOpt and EqtOptTransSupp and BrokerEqtOpt</source>
+	    <target model="fpml-eqd-5-4.dod" type="Data Type">EquityOption</target>
+    </map>
+
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-17 SameCurr - EqtOpt and EqtOptTransSupp and BrokerEqtOpt</source>
+	    <target model="fpml-eqd-5-4.dod" type="Data Type">BrokerEquityOption</target>
+    </map>
+
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-18 SameCurr - CashSettTerms</source>
+	    <target model="fpml-cd-5-4.dod" type="Data Type">CashSettlementTerms</target>
+    </map>
+
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-19 FX Check</source>
+	    <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+	<!-- Rules fx-4, fx-5, fx-6 removed for 5.3 TR confirmation view -->
+    <!-- <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-20 Same currency scheme FX - 4</source>
+	    <target model="fpml-fx-5-4.dod" type="Data Type">ExchangeRate</target>
+    </map>
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-22 Same currency scheme FX - 5</source>
+	    <target model="fpml-fx-5-4.dod" type="Data Type">ExchangeRate</target>
+    </map>
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-23 Same currency scheme FX - 6</source>
+	    <target model="fpml-fx-5-4.dod" type="Data Type">ExchangeRate</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-24 Same currency scheme FX - 23</source>
+	    <target model="fpml-fx-5-4.dod" type="Data Type">FxOption</target>
+    </map>
+
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-25 Same currency scheme FX - 27</source>
+	    <target model="fpml-shared-5-4.dod" type="Data Type">QuotedCurrencyPair</target>
+    </map>
+
+    <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-28 Same currency scheme FX 18-19</source>
+	    <target model="fpml-fx-5-4.dod" type="Data Type">FxSingleLeg</target>
+    </map>
+
+
+
+	<!-- Repo functionality removed from FpML WD 2007-07-05 -->
+	<!-- <map action="add-validation-rule">
+	    <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Predicates/p-12 Repo Forward Leg Check</source>
+	    <target model="fpml-repo-5-4.dod" type="Data Type">Repo</target>
+    </map> -->
+
+    <!--Shared-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-1</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">BusinessDayAdjustments</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-4</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">RelativeDateOffset</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-eq-shared-5-4.dod" type="Data Type">DirectionalLeg</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-eq-shared-5-4.dod" type="Data Type">EquityPremium</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ExerciseFee</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ExerciseFeeSchedule</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-option-shared-5-4.dod" type="Data Type">FeaturePayment</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">FixedPriceLeg</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">FloatingPriceLeg</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxOptionPremium</target>
+    </map>
+
+	<!-- GrossCashflow was formerly in fpml-fx-5-3.xsd -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">GrossCashflow</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">IndependentAmount</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">InitialPayment</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+	<!-- NonPeriodicFixedPriceLeg was formerly in fpml-ird-5-3.xsd -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">NonPeriodicFixedPriceLeg</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-option-shared-5-4.dod" type="Data Type">PassThroughItem</target>
+    </map>
+	<!-- Commenting out as Payment extends PaymentBase (so rule can be triggered twice by the same error!)
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">Payment</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">PaymentBase</target>
+    </map>
+
+    <!-- PaymentMatching NOT in confirmation view xsd files
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">PaymentMatching</target>
+    </map> -->
+	<!-- PhysicalLeg NOT in confirmation view xsd files, but there are several specific PhysicalLeg types such as
+		 bullionPhysicalLeg, coalPhysicalLeg, etc.
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">PhysicalLeg</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">PrePayment</target>
+    </map>
+
+	<!-- PrincipalMovement was formerly in fpml-shared-5-3.xsd -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-eq-shared-5-4.dod" type="Data Type">PrincipalExchangeDescriptions</target>
+    </map>
+
+	<!-- PrincipalMovement NOT in confirmation view xsd files
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">PrincipalMovement</target>
+    </map> -->
+	<!-- QuotablePayment NOT in confirmation view xsd files
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-pretrade-5-4.dod" type="Data Type">QuotablePayment</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-eq-shared-5-4.dod" type="Data Type">ReturnSwapAdditionalPayment</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">SimplePayment</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-5</source>
+        <target model="fpml-generic-5-4.dod" type="Data Type">TradeUnderlyer2</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-6</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">AmericanExercise</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-7</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">BermudaExercise</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-8</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">DateRange</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-9</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">BusinessDateRange</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-10</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">CalculationAgent</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-11</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <!-- <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-12</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Document</target>
+    </map> -->
+    <!-- <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-13</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Document</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-14</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Document</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-15</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">Offset</target>
+    </map>
+
+    <!-- <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-16</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Document</target>
+    </map> -->
+    <!-- <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-17</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Document</target>
+    </map> -->
+
+<!-- COMMENTING OUT RULE BECAUSE OF JAVA ERRORS (RE-WRITE in XPath?) -->
+     <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">Acknowledgement</target>
+    </map>
+     <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">DataDocument</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">Exception</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionNotification</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionAdvice</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionAdviceRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">TradeChangeAdvice</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">TradeChangeAdviceRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestConsent</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestConsentRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConsentGranted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConsentRefused</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestConfirmation</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationStatus</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationAgreed</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationDisputed</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestClearing</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestClearingRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ClearingRefused</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ClearingConfirmed</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestAllocation</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestAllocationRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">AllocationRefused</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-18</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">AllocationApproved</target>
+    </map>
+<!-- -->
+
+<!-- Commenting out rule because structure has changed & java must be changed, or rule written in XPath -->
+     <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">Acknowledgement</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">DataDocument</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">Exception</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionNotification</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionAdvice</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionAdviceRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">TradeChangeAdvice</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">TradeChangeAdviceRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestConsent</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestConsentRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConsentGranted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConsentRefused</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestConfirmation</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationStatus</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationAgreed</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationDisputed</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestClearing</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestClearingRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ClearingRefused</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ClearingConfirmed</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestAllocation</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestAllocationRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">AllocationRefused</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-19</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">AllocationApproved</target>
+    </map>
+<!-- -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-20</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">AdjustableDates</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-21</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">BusinessCenters</target>
+    </map>
+
+<!-- This new rule in FpML 4.5 WD 2008-08-29 appears to be a duplicate of shared-10 -->
+<!-- This has been removed in Version 5.4 REC -->
+<!--    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-22</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">CalculationAgent</target>
+    </map>
+-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-23</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">CashSettlementReferenceBanks</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-24</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">RoutingIds</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-25</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">Schedule</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-26</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">Bond</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CancelableProvision</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">CommodityOption</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityDerivativeBase</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">ExtendibleProvision</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">Fra</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">GeneralTerms</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-generic-5-4.dod" type="Data Type">GenericProduct</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">InstrumentTradeDetails</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-option-shared-5-4.dod" type="Data Type">Option</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-eq-shared-5-4.dod" type="Data Type">ReturnSwapBase</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">SinglePartyOption</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Shared/shared-29</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">Swaption</target>
+    </map>
+
+
+    <!--IRD-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-1</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-2</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-3</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-4</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-5</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-6</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-7</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-8</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-9</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-10</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriodDates</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-11</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriodDates</target>
+    </map>
+
+	<!-- commented out as raised as being incomplete at ISDA - see ISDA issue 1042 -->
+	<!-- <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-12</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-14</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriodDates</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-16</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriodDates</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-17</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriodDates</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-18</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriodDates</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-20</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriodDates</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-21</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriodDates</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-22</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriodDates</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-23</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">StubCalculationPeriodAmount</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-24</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">StubCalculationPeriodAmount</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-25</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">Schedule</target>
+    </map>
+
+<!-- deprecated in FpML 4.4 TR 2008-06-09 -->
+<!--    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-26</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">BusinessCentersReference</target>
+    </map>
+-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-27</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">MandatoryEarlyTermination</target>
+    </map>
+
+<!-- deprecated in FpML 4.4 TR 2008-06-09 -->
+<!--    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-28</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">MandatoryEarlyTermination</target>
+    </map>
+-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-29</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">Calculation</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-30</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriod</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-31</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriod</target>
+    </map>
+
+<!-- deprecated in FpML 4.4 WD 2008-04-04 -->
+<!--    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-32</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">Discounting</target>
+    </map>
+-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-33</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">Fra</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-34</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">PaymentCalculationPeriod</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-35</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">PaymentDates</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-36</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">PaymentDates</target>
+    </map>
+
+<!-- deprected in FpML 4.4 WD 2008-04-04 -->
+<!-- <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-38</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">StubCalculationPeriodAmount</target>
+    </map>
+-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-39</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">EarlyTerminationEvent</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-40</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">EarlyTerminationEvent</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-41</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">EarlyTerminationEvent</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-42</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">ExtensionEvent</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-43</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">FxLinkedNotionalAmount</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-44</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">MandatoryEarlyTerminationAdjustedDates</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-46</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">OptionalEarlyTermination</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-47</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">OptionalEarlyTermination</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-48</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">Swaption</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-49</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ResetFrequency</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-50</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+<!-- commented out as raised as being incomplete at ISDA - see ISDA issue 1045 -->
+<!-- -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-51</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+<!-- -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-52</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-53</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-54</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+<!-- deprecated in FpML 4.5 REC 2009-02-25 -->
+<!--    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-55</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">PaymentDates</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-56</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">PaymentDates</target>
+    </map>
+-->
+
+    <map action="add-validation-rule">
+	<source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-57</source>
+	<target model="fpml-shared-5-4.dod" type="Data Type">CalculationPeriodFrequency</target>
+    </map>
+
+    <map action="add-validation-rule">
+	<source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-58</source>
+	<target model="fpml-shared-5-4.dod" type="Data Type">CalculationPeriodFrequency</target>
+    </map>
+
+	<!-- Context changed to InterestRateStream from ResetDates -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-59</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStream</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-60</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">CalculationPeriodFrequency</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Interest Rate Derivatives/ird-61</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">NonNegativeSchedule</target>
+    </map>
+
+
+    <!--CD-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-1</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-1b</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-2</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+   <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-3b</source>
+         <target model="fpml-shared-5-4.dod" type="Data Type">ContractualTermsSupplement</target>
+    </map>
+
+   <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-4b</source>
+         <target model="fpml-shared-5-4.dod" type="Data Type">ContractualTermsSupplement</target>
+    </map>
+
+	<map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-5</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">GeneralTerms</target>
+    </map>
+
+    <!-- NOT in 5.3 TR confirmation view  <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-6</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">GeneralTerms</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-7</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">GeneralTerms</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-8</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">GeneralTerms</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-9</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">ReferenceInformation</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-10</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">ReferenceInformation</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-11</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">ReferenceInformation</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-12</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">ReferenceInformation</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-13</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-14</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-15</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-16</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-17</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-18</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-19</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-20</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-21</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-21b</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-22</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-23</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-24</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-25</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-26</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-27</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-28</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-29</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-30</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CreditDefaultSwap</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-31</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">PeriodicPayment</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-32</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">PeriodicPayment</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-33</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">PeriodicPayment</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-34</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">DeliverableObligations</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-35</source>
+        <target model="fpml-option-shared-5-4.dod" type="Data Type">CreditEvents</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-36</source>
+        <target model="fpml-option-shared-5-4.dod" type="Data Type">PubliclyAvailableInformation</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-37</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">CashSettlementTerms</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-38</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">ReferencePool</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-39</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">BasketReferenceInformation</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-40</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">Tranche</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-41</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">GeneralTerms</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-42</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">GeneralTerms</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Credit Derivatives/cd-44</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">ReferencePool</target>
+    </map>
+
+    <!--EQD-->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-2</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-3</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityAmericanExercise</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-4</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+<!-- Rule eqd-5 deprecated for FpMl TR 4.4 2008-06-27  -->
+<!--    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-5</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+-->
+   <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-6</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityBermudaExercise</target>
+    </map>
+
+<!-- Rule eqd-7 deprecated for FpMl LCWD 4.3 2007-09-05  -->
+<!--    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-7</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityBermudaExercise</target>
+    </map>
+-->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-8</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityBermudaExercise</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-9</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityBermudaExercise</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-10</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityBermudaExercise</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-12</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-13</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-14</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-15</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityExerciseValuationSettlement</target>
+    </map>
+
+<!-- Removed by ISDA at some point prior to 4.9 REC - so removed in iO in the 4.9 REC implementation --> 
+<!--    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-17</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityOption</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-17</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityDerivativeShortFormBase</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-18</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityOption</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-18</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityDerivativeShortFormBase</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-19</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityOption</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-19</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityDerivativeShortFormBase</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-20</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityOption</target>
+    </map>
+
+<!-- Note : typed changed in 4.9 REC - not known if previously in error or if changed in the interim versions -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-20</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityOptionTransactionSupplement</target>
+    </map>
+
+    <!--map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-21</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">CalculationAgent</target>
+    </map>-->
+    <!-- <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-22</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityDerivativeBase</target>
+    </map> -->
+ <!-- eqd-23 removed in FpML 4.5 WD 2008-08-29 as the new rule eqd-31 is a superset duplicate of eqd-23. -->
+ <!-- Eqd-31 is added as it covers more elements of the type EquityDerivatievBase -->
+    <!-- <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-23</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>-->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-24</source>
+        <target model="fpml-option-shared-5-4.dod" type="Data Type">AveragingSchedule</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-25</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">BrokerEquityOption</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-26</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityOption</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-26</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityDerivativeShortFormBase</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-26b</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityOption</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-26b</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityDerivativeShortFormBase</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-27</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityMultipleExercise</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-28</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityMultipleExercise</target>
+    </map>
+
+   <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-29</source>
+        <target model="fpml-eqd-5-4.dod" type="Data Type">EquityMultipleExercise</target>
+    </map>
+
+	<!-- eqd-30 removed in FpML 4.5 WD 2008-08-29 as the new rule eqd-32 is a superset duplicate of eqd-30. -->
+	<!-- eqd-32 is added as it covers more elements of the type EquityDerivatievBase -->
+    <!-- <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-30</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Contract</target>
+    </map>  -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Equity Derivatives/eqd-31</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+
+	<!-- REPO -->
+	<!-- Repo functionality removed from FpML WD 2007-07-05 -->
+
+
+    <!-- Business Process  -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-business-events-5-4.dod" type="Data Type">TradeNovationContent</target>
+    </map>
+
+
+    <!--FX-->
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-3</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">ExchangeRate</target>
+    </map>    
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-8</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxTouch</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-9</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxAverageRateObservationSchedule</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-10</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxAverageRateObservationSchedule</target>
+    </map> 
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-11</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxAsianFeature</target>
+    </map> 
+
+	<!-- **** this rule should be java code **** too difficult so we will not implement -->
+    <!-- <map action="add-validation-rule">
+   <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-12</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxAsianFeature</target>
+    </map>
+ -->
+	<!-- data type was formerly 'FxBarrier' -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-14</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxBarrierFeature</target>
+    </map>   
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-18</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxSingleLeg</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-19</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxSingleLeg</target>
+    </map> 
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-20</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxSingleLeg</target>
+    </map>
+
+	<!-- fx-21 is not applicable to fxSingleLeg (element cashSettlement must exist, but is not part of fxSingleLeg) - ISDA issue 1135 -->
+<!--    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-21</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxSingleLeg</target>
+    </map>
+-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-22</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxOption</target>
+    </map> 
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-23</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxOption</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-26</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxSwap</target>
+    </map> 
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-27</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">QuotedCurrencyPair</target>
+    </map> 
+    
+	<map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-30</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">CrossRate</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-32</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">TermDeposit</target>
+    </map> 
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-33</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">TermDeposit</target>
+    </map>     
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-36</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>     
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-38</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-39</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-40</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-45</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxDigitalOption</target>
+    </map> 
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-48</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxAsianFeature</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-49</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxSwapLeg</target>
+    </map> 
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-50</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxSwapLeg</target>
+    </map> 
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-51</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">FxSwapLeg</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-52</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">FX Derivatives/fx-53</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-1</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">AssetReference</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-2</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">FixedRateReference</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-3</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">ProtectionTermsReference</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-4</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">SettlementTermsReference</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-7</source>
+        <target model="fpml-eq-shared-5-4.dod" type="Data Type">InterestLegCalculationPeriodDatesReference</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-8</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">CalculationPeriodDatesReference</target>
+    </map>
+ 
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-9</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">InterestRateStreamReference</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-10</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">PaymentCalculationPeriod</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-11</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">PaymentDatesReference</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-12</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">ResetDatesReference</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-13</source>
+        <target model="fpml-option-shared-5-4.dod" type="Data Type">CreditEventsReference</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-25</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">AccountReference</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-26</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">BusinessCentersReference</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-27</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">BusinessDayAdjustmentsReference</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-28</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">LegalEntityReference</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-29</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">PartyReference</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-30</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">Payment</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-32</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ProductReference</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-33</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">RateReference</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-34</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ScheduleReference</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-35</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">SpreadScheduleReference</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-38</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">DataDocument</target>
+    </map>
+
+
+
+
+    <!--Loans-->
+	<!-- NO Loan data types nor loan xsd in confirmation view schemas
+	     Refer to FpML 4.9 REC for ln rules -->
+
+
+    <!-- Business Process  -->
+
+	<!-- bp-2 Context in ISDA rules is TradeNovationContent, but the rule needs to compare to party/@id, not in TradeNovationContent, 
+	     therefore all of the below Data Types are required since they each contain TradeNovationContent & party elements -->
+    <!-- <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-business-events-5-4.dod" type="Data Type">TradeNovationContent</target>
+    </map> -->
+
+    <!-- type was EventsChoice, fpml-business-events-5-4.dod - doesn't contain 'party' - need 1 level higher - ConfirmationStatus -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationStatus</target>
+    </map>
+    <!-- type was PositionHistory - doesn't contain 'party' - need 1 level higher - Position -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-valuation-5-4.dod" type="Data Type">Position</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ClearingConfirmed</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ClearingRefused</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationAgreed</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationDisputed</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConfirmationRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConsentGranted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ConsentRefused</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-business-events-5-4.dod" type="Data Type">EventProposedMatch</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionAdvice</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionAdviceRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionNotification</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">ExecutionRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestClearing</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestClearingRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestConfirmation</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestConsent</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestConsentRetracted</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestExecution</target>
+    </map>
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Business Process/bp-2</source>
+        <target model="fpml-confirmation-processes-5-4.dod" type="Data Type">RequestExecutionRetracted</target>
+    </map> <!-- -->
+
+
+    <!--Messaging-->
+    <!--Messaging ... all msg rules removed for TR confirmation view -->
+
+	<!-- Ref Rules -->
+<!--
+ <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">References/ref-1</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trade</target>
+    </map>	
+-->
+   <!--Domain Constraints-->
+
+    <!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/accountIdScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">AccountId</target>
+    </map>
+
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/accountTypeCategoryScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">????</target>
+    </map> -->
+
+    <!-- NOT in Coding Schemes folder nor in confirmation view xsds ... 
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/additionalDataScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">AdditionalData</target>
+    </map> -->
+
+    <!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/additionalTermScheme</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">AdditionalTerm</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/allocationReportingStatusScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">AllocationReportingStatus</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/assetClassScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">AssetClass</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/assetMeasureScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">AssetMeasureType</target>
+    </map>
+
+    <!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/basketIdScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">BasketId</target>
+    </map>
+
+    <!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/basketNameScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">BasketName</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/brokerConfirmationTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">BrokerConfirmationType</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/bullionDeliveryLocationScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">BullionDeliveryLocation</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/businessCenterScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">BusinessCenter</target>
+    </map>
+
+	<!-- new -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/businessProcessScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">BusinessProcess</target>
+    </map>
+
+    <!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/cashflowIdScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">CashflowId</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/cashflowTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">CashflowType</target>
+    </map>
+
+	<!-- Not in Coding Schemes folder, but has URI -->
+	<map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/categoryScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">TradeCategory</target>
+    </map>
+
+	<!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/cdxIndexAnnexSourceScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+
+	<!--new-->
+	<map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/clearanceSystemScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ClearanceSystem</target>
+    </map>
+
+	<!--new-->
+	<map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/clearingStatusScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">ClearingStatusValue</target>
+    </map>
+
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/collateralDisputeResolutionMethodReasonScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/collateralInterestResponseReasonScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/collateralMarginCallResponseReasonScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+	<!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/collateralResponseReasonScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/collateralRetractionReasonScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/collateralSubstitutionResponseReasonScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+
+	<!--new-->
+   <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/collateralTypeScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">CollateralizationType</target>
+    </map>
+
+    <!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityBaseScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">CommodityBase</target>
+    </map>
+    
+    <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityBusinessCalendarScheme</source>
+         <target model="fpml-asset-5-4.dod" type="Data Type">CommodityBusinessCalendar</target>
+    </map>
+
+<!--new-->    <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityCoalProductSourceScheme</source>
+         <target model="fpml-com-5-4.dod" type="Data Type">CoalProductSource</target>
+    </map>
+
+    <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityCoalProductTypeScheme</source>
+         <target model="fpml-com-5-4.dod" type="Data Type">CoalProductType</target>
+    </map>
+
+    <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityCoalQualityAdjustmentsScheme</source>
+         <target model="fpml-com-5-4.dod" type="Data Type">CoalQualityAdjustments</target>
+    </map>
+
+    <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityCoalTransportationEquipmentScheme</source>
+         <target model="fpml-com-5-4.dod" type="Data Type">CoalTransportationEquipment</target>
+    </map> <!-- -->
+
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityDeliveryRiskScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+
+    <!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityDetailsScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">CommodityDetails</target>
+    </map>
+
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityEnvironmentalTrackingSystemScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+
+	<!--new-->
+	<map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityExpireRelativeToEventScheme</source>
+         <target model="fpml-com-5-4.dod" type="Data Type">CommodityExpireRelativeToEvent</target>
+    </map> <!-- -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityFrequencyTypeScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">CommodityFrequencyType</target>
+    </map> 
+
+    <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityFxTypeScheme</source>
+         <target model="fpml-com-5-4.dod" type="Data Type">CommodityFxType</target>
+    </map> 
+
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityInformationProviderScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityMarketDisruptionFallbackScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">DisruptionFallback</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityMarketDisruptionScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">MarketDisruptionEvent</target>
+    </map>
+
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityMetalBrandManagerScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityMetalBrandNameScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityMetalProductTypeScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityMetalShapeScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityPayRelativeToEventScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">CommodityPayRelativeToEvent</target>
+    </map>
+    
+    <!-- NOT in xsd but there is quantityFrequencyScheme -->
+    <!-- <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityQuantityFrequencyScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">CommodityQuantityFrequency</target>
+    </map> -->
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityReferencePriceScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/compoundingFrequencyScheme</source>
+        <target model="fpml-mktenv-5-4.dod" type="Data Type">CompoundingFrequency</target>
+    </map>
+
+	<!--new-->
+	<map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/compressionTypeScheme</source>
+        <target model="fpml-business-events-5-4.dod" type="Data Type">CompressionType</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/confirmationMethodScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">ConfirmationMethod</target>
+    </map>
+
+    <!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/contractIdScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">ContractId</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/contractualDefinitionsScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ContractualDefinitions</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/contractualSupplementScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ContractualSupplement</target>
+    </map>
+
+	<!-- NOT in confirmation view schemas ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/conversationIdScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">ConversationId</target>
+    </map> -->
+	<!-- Data Type CounterpartyTypes is commented out in fpml-doc-5-3.xsd, and therefore also attribute counterpartyTypesScheme
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/counterpartyTypesScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">CounterpartyTypes</target>
+    </map> -->
+
+    <!-- NOT in Coding Schemes folder, URI points to ISO 3166 -->
+	<!-- data type formerly "Country" -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/countryScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">CountryCode</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/couponTypeScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">CouponType</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/creditDocumentScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">CreditDocument</target>
+    </map>
+
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/creditMatrixTransactionTypeScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/creditSeniorityScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">CreditSeniority</target>
+    </map>
+
+	<!-- creditSeniorityTradingScheme overrides creditSeniorityScheme when the underlyer defines the reference obligation used
+	 in a single name credit default swap trade -->
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/creditSeniorityTradingScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">CreditSeniority</target>
+    </map> <!-- -->
+
+    <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/creditSupportAgreementTypeScheme</source>
+         <target model="fpml-shared-5-4.dod" type="Data Type">CreditSupportAgreementType</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, URI points to ISO 4127-2001-08-15 -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/currencyScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">Currency</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/cutNameScheme</source>
+        <target model="fpml-fx-5-4.dod" type="Data Type">CutName</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/dayCountFractionScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">DayCountFraction</target>
+    </map>
+
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/declearReasonScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/derivativeCalculationMethodScheme</source>
+        <target model="fpml-riskdef-5-4.dod" type="Data Type">DerivativeCalculationMethod</target>
+    </map>
+
+    <!-- Not in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/designatedPriorityScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">????</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/determinationMethodScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">DeterminationMethod</target>
+    </map>
+
+
+	<!-- NOT in Coding Schemes folder, URI points to .../spec/2003/entity-id-RED-1-0 -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/entityIdScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">EntityId</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, URI points to .../spec/2003/entity-name-RED-1-0 -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/entityNameScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">EntityName</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/entityTypeScheme</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">EntityType</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+	<!-- data type formerly "EventId", and in 'fpml-doc-5-4.dod' -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/eventIdScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">EventIdentifier</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/eventStatusScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">EventStatus</target>
+    </map> <!-- -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/exchangeIdScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ExchangeId</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/executionDateTimeScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">ExecutionDateTime</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/executionTypeScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">ExecutionType</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/executionVenueTypeScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">ExecutionVenueType</target>
+    </map> <!-- -->
+
+    <!-- NOT in xsds for confirmation view ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/exposureTypeScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+
+	<!-- referred to as loanTypeScheme in file facility-type-1-0.xml -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/facilityTypeScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">FacilityType</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/floatingRateIndexScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">FloatingRateIndex</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/frequencyTypeScheme</source>
+         <target model="fpml-option-shared-5-4.dod" type="Data Type">FrequencyType</target>
+    </map>
+     
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/futureIdScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type" path="futureId">Index</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/governingLawScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">GoverningLaw</target>
+    </map>
+
+    <!-- NOT in xsds for confirmation view ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/inflationIndexDescriptionScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+    <!-- NOT in xsds for confirmation view ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/inflationIndexSourceScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+    <!-- NOT in xsds for confirmation view ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/inflationMainPublicationScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->	<!-- referred to as MainPublicationScheme in xsds -->
+
+<!-- removed as no Coding Scheme -->
+<!--
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/indexAnnexSourceScheme</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">IndexAnnexSource</target>
+    </map>
+-->
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/indexIdScheme</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">IndexId</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/indexNameScheme</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">IndexName</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/informationProviderScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">InformationProvider</target>
+    </map>
+
+
+<!-- removed as no Coding Scheme -->
+<!--
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/instrumentIdScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">InstrumentId</target>
+    </map>
+-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/interpolationMethodScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">InterpolationMethod</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+	<!-- data type Language previously in model 'fpml-credit-event-notification-5-4.dod' -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/languageScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">Language</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/legIdScheme</source>
+        <target model="fpml-eq-shared-5-4.dod" type="Data Type">LegId</target>
+    </map>
+
+	<!-- referred to as designatedPriorityScheme in file designated-priority-1-0.xml -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/lienScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">Lien</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/linkIdScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">LinkId</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, URI points to underlying-asset-tranche.xml -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/loanTrancheScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">UnderlyingAssetTranche</target>
+    </map>
+
+    <!-- NOT in xsds for confirmation view ??? <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/localJurisdictionScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+
+	<!-- referred to as inflationMainPublicationScheme in file inflation-main-publication-1-0.xml -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/mainPublicationScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">MainPublication</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/marketDisruptionScheme</source>
+        <target model="fpml-option-shared-5-4.dod" type="Data Type">MarketDisruption</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/masterAgreementTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">MasterAgreementType</target>
+    </map>
+
+    <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/masterAgreementVersionScheme</source>
+         <target model="fpml-shared-5-4.dod" type="Data Type">MasterAgreementVersion</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/masterConfirmationAnnexTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">MasterConfirmationAnnexType</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/masterConfirmationTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">MasterConfirmationType</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/matchIdScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">MatchId</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/matrixTermScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">MatrixTerm</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/matrixTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">MatrixType</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+	<!-- previously partyIdScheme (error?) -->
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/messageAddressScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">MessageAddress</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/messageIdScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">MessageId</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/mimeTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">MimeType</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/mortgageSectorScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">MortgageSector</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/optionTypeScheme</source>
+        <target model="fpml-generic-5-4.dod" type="Data Type">OptionType</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/organizationCharacteristicScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">OrganizationCharacteristic</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/organizationTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">OrganizationType</target>
+    </map>
+
+    <!-- NOT in xsds for confirmation view ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/orgTypeCategoryScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/originatingEventScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">OriginatingEvent</target>
+    </map> <!-- -->
+
+	<!-- external, ISO 9362 -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/partyIdScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">PartyId</target>
+    </map>
+
+<!--new-->    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/partyRoleScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">PartyRole</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/partyRoleTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">PartyRoleType</target>
+    </map> <!-- -->
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/paymentTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">PaymentType</target>
+    </map>
+
+<!--new-->    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/personRoleScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">PersonRole</target>
+    </map> <!-- -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/perturbationTypeScheme</source>
+        <target model="fpml-riskdef-5-4.dod" type="Data Type">PerturbationType</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/portfolioNameScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">PortfolioName</target>
+    </map>
+
+    <!-- NOT in xsds for confirmation view ... <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/positionChangeTypeScheme</source>
+         <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/positionIdScheme</source>
+         <target model="fpml-riskdef-5-4.dod" type="Data Type">PositionId</target>
+    </map>
+
+    <!-- NOT in xsds for confirmation view ... <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/positionStatusScheme</source>
+         <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+    <!-- NOT in xsds for confirmation view ... <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/positionUpdateReasonCodeScheme</source>
+         <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/priceQuoteUnitsScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">PriceQuoteUnits</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/pricingInputTypeScheme</source>
+        <target model="fpml-riskdef-5-4.dod" type="Data Type">PricingInputType</target>
+    </map>
+
+    <!-- scheme NOT in confirmation view xsds nor in Coding Schemes folder
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/problemLocationScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">ProblemLocation</target>
+    </map> -->
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/productIdScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ProductId</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/productTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ProductType</target>
+    </map>
+
+    <!-- scheme NOT in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/productTypeSimpleScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+
+	<!-- URI references commodity-quantity-frequency -->
+    <map action="add-validation-rule">
+         <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/quantityFrequencyScheme</source>
+         <target model="fpml-com-5-4.dod" type="Data Type">CommodityQuantityFrequency</target>
+    </map>
+
+	<!-- URI references price-quote-units -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/quantityUnitScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">QuantityUnit</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/queryParameterIdScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">QueryParameterId</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/queryParameterOperatorScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">QueryParameterOperator</target>
+    </map>
+
+     <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/quoteTimingScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">QuoteTiming</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/rateSourcePageScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">RateSourcePage</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/reasonCodeScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">ReasonCode</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/referenceAmountScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ReferenceAmount</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/referenceBankIdScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ReferenceBankId</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/reportingCurrencyTypeScheme</source>
+        <target model="fpml-asset-5-4.dod" type="Data Type">ReportingCurrencyType</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/reportingPurposeScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">ReportingPurpose</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/reportingRegimeNameScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">ReportingRegimeName</target>
+    </map>
+
+    <!-- scheme NOT in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/reportingRegimeScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/reportingRoleScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">ReportingRole</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/requestedActionScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">RequestedAction</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/requestedWithdrawalActionScheme</source>
+        <target model="fpml-business-events-5-4.dod" type="Data Type">RequestedWithdrawalAction</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+	<!-- data type ResourceId previously in model 'fpml-credit-event-notification-5-4.dod' -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/resourceIdScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ResourceId</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/resourceTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">ResourceType</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/restructuringScheme</source>
+        <target model="fpml-option-shared-5-4.dod" type="Data Type">Restructuring</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/routingIdCodeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">RoutingId</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/scheduledDateTypeScheme</source>
+        <target model="fpml-valuation-5-4.dod" type="Data Type">ScheduledDateType</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/serviceAdvisoryCategoryScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">ServiceAdvisoryCategory</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/serviceProcessingCycleScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">ServiceProcessingCycle</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/serviceProcessingEventScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">ServiceProcessingEvent</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/serviceProcessingStepScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">ServiceProcessingStep</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/serviceStatusScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">ServiceStatus</target>
+    </map>
+
+    <!-- scheme NOT in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/setOfSchemesScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/settledEntityMatrixSourceScheme</source>
+        <target model="fpml-cd-5-4.dod" type="Data Type">MatrixSource</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/settlementMethodScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">SettlementMethod</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/settlementPriceDefaultElectionScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">SettlementPriceDefaultElection</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/settlementPriceSourceScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">SettlementPriceSource</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/settlementRateOptionScheme</source>
+        <target model="fpml-ird-5-4.dod" type="Data Type">SettlementRateOption</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/spreadScheduleTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">SpreadScheduleType</target>
+    </map>
+
+	<!--new-->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/supervisoryBodyScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">SupervisoryBody</target>
+    </map>
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/terminatingEventScheme</source>
+        <target model="fpml-business-events-5-4.dod" type="Data Type">TerminatingEvent</target>
+    </map>
+
+
+    <!-- NOT in confirmation view xsds ... <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/tradeCashflowsStatusScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/tradeIdScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">TradeId</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/traderScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Trader</target>
+    </map>
+
+	<!-- NOT in confirmation view xsds ... and NOT in Coding Schemes folder
+	<map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/tradeStatusScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">???</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/unitRoleScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">BusinessUnitRole</target>
+    </map>
+
+	<!-- NOT in Coding Schemes folder, no URI -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/validationScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">Validation</target>
+    </map>
+
+	<!-- xsd does not contain the URI to valuation-set-detail -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/valuationSetDetailScheme</source>
+        <target model="fpml-valuation-5-4.dod" type="Data Type">ValuationSetDetail</target>
+    </map>
+
+	<!-- new -->
+	<map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/verificationMethodScheme</source>
+        <target model="fpml-doc-5-4.dod" type="Data Type">VerificationMethod</target>
+    </map>
+
+	<!--new-->
+	<map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/verificationStatusScheme</source>
+        <target model="fpml-msg-5-4.dod" type="Data Type">VerificationStatus</target>
+    </map>
+
+	<!-- NOT in confirmation view xsds ... new
+	<map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/weatherIndexReferenceLevelScheme</source>
+        <target model="fpml-???-5-4.dod" type="Data Type">TradeStatusValue</target>
+    </map> -->
+
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/withdrawalReasonScheme</source>
+        <target model="fpml-business-events-5-4.dod" type="Data Type">WithdrawalReason</target>
+    </map>
+    
+	<!-- new in 5.4 REC -->
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/declearReasonScheme</source>
+        <target model="fpml-business-events-5-4.dod" type="Data Type">DeclearReason</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/deliveryRiskScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">CommodityDeliveryRisk</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityMetalBrandManagerScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">CommodityMetalBrandManager</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityMetalBrandNameScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">CommodityMetalBrandName</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityMetalShapeScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">CommodityMetalShape</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/productGradeScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">CommodityProductGrade</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/weatherDataProviderScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">DataProvider</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/electricityTransmissionContingencyScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">ElectricityTransmissionContingencyType</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/environmentalProductApplicableLawScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">EnvironmentalProductApplicableLaw</target>
+    </map>
+ 
+     <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityEnvironmentalTrackingSystemScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">EnvironmentalTrackingSystem</target>
+    </map>
+    
+     <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/gasQualityScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">GasQuality</target>
+    </map>
+    
+     <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityMetalProductTypeScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">Material</target>
+    </map>
+
+     <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/commodityOilProductTypeScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">OilProductType</target>
+    </map>
+    
+      <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/weatherIndexReferenceLevelScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">ReferenceLevelUnit</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/weatherStationAirportScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">WeatherStationAirport</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/weatherStationWBANScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">WeatherStationWBAN</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/weatherStationWMOScheme</source>
+        <target model="fpml-com-5-4.dod" type="Data Type">WeatherStationWMO</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/accountTypeScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">AccountType</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/creditRatingScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">CreditRating</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/industryClassificationScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">IndustryClassification</target>
+    </map>
+    
+    <map action="add-validation-rule">
+        <source model="FpML Rules 5.4 REC 2012-12-10.dod" type="Validation Rule">Domain Constraints/timezoneLocationScheme</source>
+        <target model="fpml-shared-5-4.dod" type="Data Type">TimezoneLocation</target>
+    </map>
+ 
+ 
+    
+    
+    
+
+    
+
+	
+</io-import-mapping>

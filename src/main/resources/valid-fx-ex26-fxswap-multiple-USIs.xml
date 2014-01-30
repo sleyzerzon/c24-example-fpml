@@ -1,0 +1,2428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Batch>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098765</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYAUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX123451</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789012</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789013</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYAUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYAUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098766</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYBUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX123452</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789014</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789015</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYBUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYBUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098767</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYCUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX123453</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789016</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789017</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYCUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYCUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098768</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYDUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX123454</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789018</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789019</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYDUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYDUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098769</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYAUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX123455</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789020</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789021</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYAUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYAUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098770</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYBUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX123456</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789022</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789023</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYBUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYBUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098771</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYCUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX123457</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789024</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789025</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYCUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYCUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098772</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYDUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX123458</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789026</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789027</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYDUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYDUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098773</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYEUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX123459</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789028</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789029</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYEUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYEUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098774</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYFUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12360</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789030</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789031</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYFUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYFUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098775</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYAUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12361</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789032</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789033</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYAUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYAUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098776</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYBUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12362</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789034</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789035</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYBUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYBUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098777</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYCUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12363</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789036</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789037</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYCUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYCUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098778</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYDUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12364</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789038</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789039</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYDUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYDUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098779</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYAUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12365</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789040</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789041</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYAUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYAUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098780</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYCUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12366</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789042</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789043</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYCUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYCUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098781</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYDUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12367</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789044</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789045</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYDUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYDUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098782</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYAUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12368</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789046</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789047</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYAUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYAUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098783</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYBUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12369</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789048</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789049</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYBUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYBUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098784</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYCUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12370</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789050</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789051</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYCUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYCUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098785</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYDUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12371</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789052</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789053</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYDUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYDUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098786</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYEUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12372</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789054</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789055</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYEUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYEUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098787</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYEUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12373</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789056</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789057</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYEUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYEUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098788</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYAUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12374</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789058</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789059</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYAUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYAUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+	<requestConfirmation xmlns="http://www.fpml.org/FpML-5/confirmation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-4" xsi:schemaLocation="http://www.fpml.org/FpML-5/confirmation ../../fpml-main-5-4.xsd http://www.w3.org/2000/09/xmldsig# ../../xmldsig-core-schema.xsd">
+	  <header>
+		<messageId messageIdScheme="http://www.partyA.com/coding-scheme/messageId">FX098789</messageId>
+		<sentBy messageAddressScheme="http://www.partyA.com/partyId">DEUTDEFF</sentBy>
+		<sendTo messageAddressScheme="http://www.partyA.com/partyId">PTYBUS33</sendTo>
+		<creationTimestamp>2007-01-05T15:38:00-05:00</creationTimestamp>
+	  </header>
+	  <isCorrection>false</isCorrection>
+	  <correlationId correlationIdScheme="http://www.partyA.com/coding-scheme/correlationId">FX12375</correlationId>
+	  <sequenceNumber>1</sequenceNumber>
+	  <trade>
+		<tradeHeader>
+		  <partyTradeIdentifier id="nearLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789060</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier id="farLegId">
+			<issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">1031234567</issuer>
+			<tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">712345678901234567890123456789061</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party1" />
+			<tradeId tradeIdScheme="http://www.partyA.com/swaps/trade-id">PTYBUS33</tradeId>
+		  </partyTradeIdentifier>
+		  <partyTradeIdentifier>
+			<partyReference href="party2" />
+			<tradeId tradeIdScheme="http://www.db.com/swaps/trade-id">DEUTDEFF</tradeId>
+		  </partyTradeIdentifier>
+		  <tradeDate>2014-01-23</tradeDate>
+		</tradeHeader>
+		<fxSwap>
+		  <productType>FxSwap</productType>
+		  <nearLeg>
+			<tradeIdentifierReference href="nearLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>14800000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-01-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.48</rate>
+			</exchangeRate>
+		  </nearLeg>
+		  <farLeg>
+			<tradeIdentifierReference href="farLegId" />
+			<exchangedCurrency1>
+			  <payerPartyReference href="party1" />
+			  <receiverPartyReference href="party2" />
+			  <paymentAmount>
+				<currency>GBP</currency>
+				<amount>10000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency1>
+			<exchangedCurrency2>
+			  <payerPartyReference href="party2" />
+			  <receiverPartyReference href="party1" />
+			  <paymentAmount>
+				<currency>USD</currency>
+				<amount>15000000</amount>
+			  </paymentAmount>
+			</exchangedCurrency2>
+			<valueDate>2014-02-25</valueDate>
+			<exchangeRate>
+			  <quotedCurrencyPair>
+				<currency1>GBP</currency1>
+				<currency2>USD</currency2>
+				<quoteBasis>Currency2PerCurrency1</quoteBasis>
+			  </quotedCurrencyPair>
+			  <rate>1.5</rate>
+			</exchangeRate>
+		  </farLeg>
+		</fxSwap>
+	  </trade>
+	  <party id="party1">
+		<partyId>PTYBUS33</partyId>
+	  </party>
+	  <party id="party2">
+		<partyId>DEUTDEFF</partyId>
+	  </party>
+	</requestConfirmation>
+</Batch>

@@ -1,0 +1,294 @@
+<?xml version="1.0" ?>
+<transform IOversion="3.1.0" encrypted="false" processingOrder="Outputs" readOnly="false" saveLayout="true" targetNamespace="http://www.c24.biz/examples/fpml/transforms" validateInputs="false" validateOutputs="false" name="SplitTradesLegsAndCashflows.tfd">
+  <input endID="0" modelRef="BigFileOfTrades.dod" path="" required="false" typeRef="#Document Root"></input>
+  <contextPath contextRef="Header/Amount" endID="2" input="false" id="Header_AmountO002"></contextPath>
+  <constant constant="Amount" id="Header_AmountO00200"></constant>
+  <contextPath contextRef="Header/Basis" endID="1" input="false" id="Header_BasisO001"></contextPath>
+  <constant constant="Basis" id="Header_BasisO00100"></constant>
+  <contextPath contextRef="Header/Currency1" endID="1" input="false" id="Header_Currency1O001"></contextPath>
+  <constant constant="Currency1" id="Header_Currency1O00100"></constant>
+  <contextPath contextRef="Header/Currency2" endID="1" input="false" id="Header_Currency2O001"></contextPath>
+  <constant constant="Currency2" id="Header_Currency2O00100"></constant>
+  <contextPath contextRef="Header/Currency" endID="2" input="false" id="Header_CurrencyO002"></contextPath>
+  <constant constant="Currency" id="Header_CurrencyO00200"></constant>
+  <contextPath contextRef="Header/LegId" endID="1" input="false" id="Header_LegIdO001"></contextPath>
+  <constant constant="LegId" id="Header_LegIdO00100"></constant>
+  <contextPath contextRef="Header/LegId" endID="2" input="false" id="Header_LegIdO002"></contextPath>
+  <constant constant="LegId" id="Header_LegIdO00200"></constant>
+  <contextPath contextRef="Header/Party1" endID="0" input="false" id="Header_Party1O000"></contextPath>
+  <constant constant="Party1" id="Header_Party1O00000"></constant>
+  <contextPath contextRef="Header/Party2" endID="0" input="false" id="Header_Party2O000"></contextPath>
+  <constant constant="Party2" id="Header_Party2O00000"></constant>
+  <contextPath contextRef="Header/Payer" endID="2" input="false" id="Header_PayerO002"></contextPath>
+  <constant constant="Payer" id="Header_PayerO00200"></constant>
+  <contextPath contextRef="Header/ProductType" endID="0" input="false" id="Header_ProductTypeO000"></contextPath>
+  <constant constant="ProductType" id="Header_ProductTypeO00000"></constant>
+  <contextPath contextRef="Header/Rate" endID="1" input="false" id="Header_RateO001"></contextPath>
+  <constant constant="Rate" id="Header_RateO00100"></constant>
+  <contextPath contextRef="Header/Receiver" endID="2" input="false" id="Header_ReceiverO002"></contextPath>
+  <constant constant="Receiver" id="Header_ReceiverO00200"></constant>
+  <contextPath contextRef="Header/TradeDate" endID="0" input="false" id="Header_TradeDateO000"></contextPath>
+  <constant constant="TradeDate" id="Header_TradeDateO00000"></constant>
+  <contextPath contextRef="Header/TradeId" endID="0" input="false" id="Header_TradeIdO000"></contextPath>
+  <constant constant="TradeId" id="Header_TradeIdO00000"></constant>
+  <contextPath contextRef="Header/TradeId" endID="1" input="false" id="Header_TradeIdO001"></contextPath>
+  <constant constant="TradeId" id="Header_TradeIdO00100"></constant>
+  <contextPath contextRef="Header/TradeId" endID="2" input="false" id="Header_TradeIdO002"></contextPath>
+  <constant constant="TradeId" id="Header_TradeIdO00200"></constant>
+  <contextPath contextRef="Header/ValueDate" endID="2" input="false" id="Header_ValueDateO002"></contextPath>
+  <constant constant="ValueDate" id="Header_ValueDateO00200"></constant>
+  <contextPath contextRef="Row" endID="0" input="false" id="RowO000"></contextPath>
+  <contextPath contextRef="Trade" endID="2" input="false" id="TradeO002"></contextPath>
+  <localTransformRef refId="ProcessTrades_RowO00000" x="208" y="97" id="TradeO00220"></localTransformRef>
+  <contextPath contextRef="Batch/requestConfirmation" endID="0" input="true" id="TradeO0022000"></contextPath>
+  <contextPath contextRef="Trade" endID="1" input="false" id="TradeRowGroupO001"></contextPath>
+  <translation inputID="Header_AmountO00200" inputPort="0" outputID="Header_AmountO002" outputPort="0"></translation>
+  <translation inputID="Header_BasisO00100" inputPort="0" outputID="Header_BasisO001" outputPort="0"></translation>
+  <translation inputID="Header_Currency1O00100" inputPort="0" outputID="Header_Currency1O001" outputPort="0"></translation>
+  <translation inputID="Header_Currency2O00100" inputPort="0" outputID="Header_Currency2O001" outputPort="0"></translation>
+  <translation inputID="Header_CurrencyO00200" inputPort="0" outputID="Header_CurrencyO002" outputPort="0"></translation>
+  <translation inputID="Header_LegIdO00100" inputPort="0" outputID="Header_LegIdO001" outputPort="0"></translation>
+  <translation inputID="Header_LegIdO00200" inputPort="0" outputID="Header_LegIdO002" outputPort="0"></translation>
+  <translation inputID="Header_Party1O00000" inputPort="0" outputID="Header_Party1O000" outputPort="0"></translation>
+  <translation inputID="Header_Party2O00000" inputPort="0" outputID="Header_Party2O000" outputPort="0"></translation>
+  <translation inputID="Header_PayerO00200" inputPort="0" outputID="Header_PayerO002" outputPort="0"></translation>
+  <translation inputID="Header_ProductTypeO00000" inputPort="0" outputID="Header_ProductTypeO000" outputPort="0"></translation>
+  <translation inputID="Header_RateO00100" inputPort="0" outputID="Header_RateO001" outputPort="0"></translation>
+  <translation inputID="Header_ReceiverO00200" inputPort="0" outputID="Header_ReceiverO002" outputPort="0"></translation>
+  <translation inputID="Header_TradeDateO00000" inputPort="0" outputID="Header_TradeDateO000" outputPort="0"></translation>
+  <translation inputID="Header_TradeIdO00000" inputPort="0" outputID="Header_TradeIdO000" outputPort="0"></translation>
+  <translation inputID="Header_TradeIdO00100" inputPort="0" outputID="Header_TradeIdO001" outputPort="0"></translation>
+  <translation inputID="Header_TradeIdO00200" inputPort="0" outputID="Header_TradeIdO002" outputPort="0"></translation>
+  <translation inputID="Header_ValueDateO00200" inputPort="0" outputID="Header_ValueDateO002" outputPort="0"></translation>
+  <translation inputID="TradeO00220" inputPort="0" outputID="RowO000" outputPort="0"></translation>
+  <translation inputID="TradeO00220" inputPort="2" outputID="TradeO002" outputPort="0"></translation>
+  <translation inputID="TradeO0022000" inputPort="0" outputID="TradeO00220" outputPort="0"></translation>
+  <translation inputID="TradeO00220" inputPort="1" outputID="TradeRowGroupO001" outputPort="0"></translation>
+  <output endID="0" modelRef="Trades.dod" path="" required="false" typeRef="File/Trades"></output>
+  <output endID="1" modelRef="Legs.dod" path="" required="false" typeRef="File/Legs"></output>
+  <output endID="2" modelRef="Cashflows.dod" path="" required="false" typeRef="File/Cashflows"></output>
+  <localTransform id="ProcessTrades_RowO00000">
+    <transform IOversion="3.1.0" encrypted="false" processingOrder="Outputs" readOnly="false" saveLayout="true" targetNamespace="http://www.c24.biz/examples/fpml/transforms" validateInputs="false" validateOutputs="false" name="ProcessTrades">
+      <input endID="0" modelRef="BigFileOfTrades.dod" path="Batch/requestConfirmation" required="false" typeRef="#Document Root"></input>
+      <contextPath contextRef="CorrelationAndSequence.model/Correlation.model/CorrelationId.model/correlationId" endID="0" input="true" id="CorrelationAndSequencemodel_Correlationmodel_CorrelationIdmodel_correlationIdI000"></contextPath>
+      <contextPath contextRef="Events.model/Events.model-SG1/trade/product/Product-SG1/Product.model/productType" endID="0" input="true" id="Eventsmodel_EventsmodelSG1_trade_product_ProductSG1_Productmodel_productTypeI000"></contextPath>
+      <contextPath contextRef="Events.model/Events.model-SG1/trade/product!fxSwap/farLeg" endID="0" input="true" id="Eventsmodel_EventsmodelSG1_trade_productfxSwap_farLegI000">
+        <additionalModelRef>FpML5-4-confirmation/fpml-fx-5-4.dod</additionalModelRef>
+      </contextPath>
+      <contextPath contextRef="Events.model/Events.model-SG1/trade/product!fxSwap/nearLeg" endID="0" input="true" id="Eventsmodel_EventsmodelSG1_trade_productfxSwap_nearLegI000">
+        <additionalModelRef>FpML5-4-confirmation/fpml-fx-5-4.dod</additionalModelRef>
+      </contextPath>
+      <contextPath contextRef="Events.model/Events.model-SG1/trade/tradeHeader/partyTradeIdentifier" endID="0" input="true" id="Eventsmodel_EventsmodelSG1_trade_tradeHeader_partyTradeIdentifierI000"></contextPath>
+      <contextPath contextRef="Events.model/Events.model-SG1/trade/tradeHeader/tradeDate" endID="0" input="true" id="Eventsmodel_EventsmodelSG1_trade_tradeHeader_tradeDateI000"></contextPath>
+      <contextPath contextRef="Leg" endID="2" input="false" id="LegO002"></contextPath>
+      <contextPath contextRef="Party1" endID="0" input="false" id="Party1O000"></contextPath>
+      <filterRef refId="Party1_Party1O00000" x="274" y="68" id="Party1O00000"></filterRef>
+      <contextPath contextRef="Party2" endID="0" input="false" id="Party2O000"></contextPath>
+      <filterRef refId="Party2_Party2O00000" x="274" y="110" id="Party2O00000"></filterRef>
+      <contextPath contextRef="ProductType" endID="0" input="false" id="ProductTypeO000"></contextPath>
+      <transformMethod name="FIRST" x="229" y="198" id="ProductTypeO00000"></transformMethod>
+      <contextPath contextRef="Leg" endID="1" input="false" id="RowO001"></contextPath>
+      <localTransformRef refId="MapLegs_RowO00100" x="354" y="264" id="RowO00100"></localTransformRef>
+      <transformMethod name="UNION" x="164" y="447" id="RowO0010000"></transformMethod>
+      <filterRef refId="NearLegUTI_RowO0010002" x="168" y="327" id="RowO0010002"></filterRef>
+      <filterRef refId="FarLegUTI_RowO0010003" x="168" y="374" id="RowO0010003"></filterRef>
+      <contextPath contextRef="TradeDate" endID="0" input="false" id="TradeDateO000"></contextPath>
+      <transformMethod name="CONVERTDATE" type="#date_generic" x="257" y="152" id="TradeDateO00000"></transformMethod>
+      <contextPath contextRef="TradeId" endID="0" input="false" id="TradeIdO000"></contextPath>
+      <translation inputID="RowO00100" inputPort="1" outputID="LegO002" outputPort="0"></translation>
+      <translation inputID="Party1O00000" inputPort="0" outputID="Party1O000" outputPort="0"></translation>
+      <translation inputID="Eventsmodel_EventsmodelSG1_trade_tradeHeader_partyTradeIdentifierI000" inputPort="0" outputID="Party1O00000" outputPort="0"></translation>
+      <translation inputID="Party2O00000" inputPort="0" outputID="Party2O000" outputPort="0"></translation>
+      <translation inputID="Eventsmodel_EventsmodelSG1_trade_tradeHeader_partyTradeIdentifierI000" inputPort="0" outputID="Party2O00000" outputPort="0"></translation>
+      <translation inputID="ProductTypeO00000" inputPort="0" outputID="ProductTypeO000" outputPort="0"></translation>
+      <translation inputID="Eventsmodel_EventsmodelSG1_trade_product_ProductSG1_Productmodel_productTypeI000" inputPort="0" outputID="ProductTypeO00000" outputPort="0"></translation>
+      <translation inputID="RowO00100" inputPort="0" outputID="RowO001" outputPort="0"></translation>
+      <translation inputID="RowO0010000" inputPort="0" outputID="RowO00100" outputPort="0"></translation>
+      <translation inputID="Eventsmodel_EventsmodelSG1_trade_productfxSwap_nearLegI000" inputPort="0" outputID="RowO0010000" outputPort="0"></translation>
+      <translation inputID="Eventsmodel_EventsmodelSG1_trade_productfxSwap_farLegI000" inputPort="0" outputID="RowO0010000" outputPort="1"></translation>
+      <translation inputID="Eventsmodel_EventsmodelSG1_trade_tradeHeader_partyTradeIdentifierI000" inputPort="0" outputID="RowO0010002" outputPort="0"></translation>
+      <translation inputID="Eventsmodel_EventsmodelSG1_trade_tradeHeader_partyTradeIdentifierI000" inputPort="0" outputID="RowO0010003" outputPort="0"></translation>
+      <translation inputID="CorrelationAndSequencemodel_Correlationmodel_CorrelationIdmodel_correlationIdI000" inputPort="0" outputID="RowO00100" outputPort="1"></translation>
+      <translation inputID="RowO0010002" inputPort="0" outputID="RowO00100" outputPort="2"></translation>
+      <translation inputID="RowO0010003" inputPort="0" outputID="RowO00100" outputPort="3"></translation>
+      <translation inputID="TradeDateO00000" inputPort="0" outputID="TradeDateO000" outputPort="0"></translation>
+      <translation inputID="Eventsmodel_EventsmodelSG1_trade_tradeHeader_tradeDateI000" inputPort="0" outputID="TradeDateO00000" outputPort="0"></translation>
+      <translation inputID="CorrelationAndSequencemodel_Correlationmodel_CorrelationIdmodel_correlationIdI000" inputPort="0" outputID="TradeIdO000" outputPort="0"></translation>
+      <output endID="0" modelRef="Trades.dod" path="Row" required="false" typeRef="File/Trades"></output>
+      <output endID="1" modelRef="Legs.dod" path="Trade" required="false" typeRef="File/Legs"></output>
+      <output endID="2" modelRef="Cashflows.dod" path="Trade" required="false" typeRef="File/Cashflows"></output>
+      <filter id="FarLegUTI_RowO0010003">
+        <filter name="FarLegUTI">
+          <input endID="0" modelRef="FpML5-4-confirmation/fpml-confirmation-processes-5-4.dod" path="Events.model/Events.model-SG1/trade/tradeHeader/partyTradeIdentifier" required="false" typeRef="RequestConfirmation"></input>
+          <contextPath contextRef="any" endID="1" input="false" id="anyO001"></contextPath>
+          <contextPath contextRef="TradeIdentifier-SG1/TradeIdentifier-SG2/tradeId" endID="0" input="true" id="anyO00100"></contextPath>
+          <contextPath contextRef="boolean" endID="0" input="false" id="booleanO000"></contextPath>
+          <transformMethod name="EQUALS" x="271" y="48" id="booleanO00000"></transformMethod>
+          <contextPath contextRef="@id" endID="0" input="true" id="booleanO0000000"></contextPath>
+          <constant constant="farLegId" id="booleanO0000001"></constant>
+          <translation inputID="anyO00100" inputPort="0" outputID="anyO001" outputPort="0"></translation>
+          <translation inputID="booleanO00000" inputPort="0" outputID="booleanO000" outputPort="0"></translation>
+          <translation inputID="booleanO0000000" inputPort="0" outputID="booleanO00000" outputPort="0"></translation>
+          <translation inputID="booleanO0000001" inputPort="0" outputID="booleanO00000" outputPort="1"></translation>
+        </filter>
+      </filter>
+      <localTransform id="MapLegs_RowO00100">
+        <transform IOversion="3.1.0" encrypted="false" processingOrder="Outputs" readOnly="false" saveLayout="true" targetNamespace="http://www.c24.biz/examples/fpml/transforms" validateInputs="false" validateOutputs="false" name="MapLegs">
+          <input endID="0" modelRef="FpML5-4-confirmation/fpml-fx-5-4.dod" path="nearLeg" required="false" typeRef="FxSwap"></input>
+          <input endID="1" modelRef="FpML5-4-confirmation/fpml-confirmation-processes-5-4.dod" path="CorrelationAndSequence.model/Correlation.model/CorrelationId.model/correlationId" required="false" typeRef="RequestConfirmation"></input>
+          <input endID="2" modelRef="FpML5-4-confirmation/fpml-confirmation-processes-5-4.dod" path="Events.model/Events.model-SG1/trade/tradeHeader/partyTradeIdentifier/TradeIdentifier-SG1/TradeIdentifier-SG2/tradeId" required="false" typeRef="RequestConfirmation"></input>
+          <input endID="3" modelRef="FpML5-4-confirmation/fpml-confirmation-processes-5-4.dod" path="Events.model/Events.model-SG1/trade/tradeHeader/partyTradeIdentifier/TradeIdentifier-SG1/TradeIdentifier-SG2/tradeId" required="false" typeRef="RequestConfirmation"></input>
+          <contextPath contextRef="Basis" endID="0" input="false" id="BasisO000"></contextPath>
+          <contextPath contextRef="Cashflow" endID="1" input="false" id="CashflowO001"></contextPath>
+          <localTransformRef refId="MapCashflows_CashflowO00100" x="389" y="464" id="CashflowO00100"></localTransformRef>
+          <transformMethod name="UNION" x="249" y="331" id="CashflowO0010000"></transformMethod>
+          <contextPath contextRef="Currency1" endID="0" input="false" id="Currency1O000"></contextPath>
+          <contextPath contextRef="Currency2" endID="0" input="false" id="Currency2O000"></contextPath>
+          <contextPath contextRef="FxCoreDetails.model/exchangeRate/quotedCurrencyPair/currency1" endID="0" input="true" id="FxCoreDetailsmodel_exchangeRate_quotedCurrencyPair_currency1I000"></contextPath>
+          <contextPath contextRef="FxCoreDetails.model/exchangeRate/quotedCurrencyPair/currency2" endID="0" input="true" id="FxCoreDetailsmodel_exchangeRate_quotedCurrencyPair_currency2I000"></contextPath>
+          <contextPath contextRef="FxCoreDetails.model/exchangeRate/quotedCurrencyPair/quoteBasis" endID="0" input="true" id="FxCoreDetailsmodel_exchangeRate_quotedCurrencyPair_quoteBasisI000"></contextPath>
+          <contextPath contextRef="FxCoreDetails.model/exchangeRate/rate" endID="0" input="true" id="FxCoreDetailsmodel_exchangeRate_rateI000"></contextPath>
+          <contextPath contextRef="FxCoreDetails.model/exchangedCurrency1" endID="0" input="true" id="FxCoreDetailsmodel_exchangedCurrency1I000"></contextPath>
+          <contextPath contextRef="FxCoreDetails.model/exchangedCurrency2" endID="0" input="true" id="FxCoreDetailsmodel_exchangedCurrency2I000"></contextPath>
+          <contextPath contextRef="" endID="0" input="true" id="I000"></contextPath>
+          <contextPath contextRef="" endID="1" input="true" id="I001"></contextPath>
+          <contextPath contextRef="" endID="2" input="true" id="I002"></contextPath>
+          <contextPath contextRef="" endID="3" input="true" id="I003"></contextPath>
+          <contextPath contextRef="LegId" endID="0" input="false" id="LegIdO000"></contextPath>
+          <transformMethod name="IF" type="#string" x="346" y="151" id="LegIdO00000"></transformMethod>
+          <transformMethod name="EQUALS" x="187" y="69" id="LegIdO0000000"></transformMethod>
+          <constant constant="nearLegId" id="LegIdO000000001"></constant>
+          <contextPath contextRef="Rate" endID="0" input="false" id="RateO000"></contextPath>
+          <transformMethod name="CAST" type="#number_double" x="200" y="200" id="RateO00000"></transformMethod>
+          <contextPath contextRef="TradeId" endID="0" input="false" id="TradeIdO000"></contextPath>
+          <contextPath contextRef="tradeIdentifierReference/@href" endID="0" input="true" id="tradeIdentifierReference_hrefI000"></contextPath>
+          <translation inputID="FxCoreDetailsmodel_exchangeRate_quotedCurrencyPair_quoteBasisI000" inputPort="0" outputID="BasisO000" outputPort="0"></translation>
+          <translation inputID="CashflowO00100" inputPort="0" outputID="CashflowO001" outputPort="0"></translation>
+          <translation inputID="CashflowO0010000" inputPort="0" outputID="CashflowO00100" outputPort="0"></translation>
+          <translation inputID="FxCoreDetailsmodel_exchangedCurrency1I000" inputPort="0" outputID="CashflowO0010000" outputPort="0"></translation>
+          <translation inputID="FxCoreDetailsmodel_exchangedCurrency2I000" inputPort="0" outputID="CashflowO0010000" outputPort="1"></translation>
+          <translation inputID="I001" inputPort="0" outputID="CashflowO00100" outputPort="1"></translation>
+          <translation inputID="I002" inputPort="0" outputID="CashflowO00100" outputPort="2"></translation>
+          <translation inputID="I000" inputPort="0" outputID="CashflowO00100" outputPort="3"></translation>
+          <translation inputID="FxCoreDetailsmodel_exchangeRate_quotedCurrencyPair_currency1I000" inputPort="0" outputID="Currency1O000" outputPort="0"></translation>
+          <translation inputID="FxCoreDetailsmodel_exchangeRate_quotedCurrencyPair_currency2I000" inputPort="0" outputID="Currency2O000" outputPort="0"></translation>
+          <translation inputID="LegIdO00000" inputPort="0" outputID="LegIdO000" outputPort="0"></translation>
+          <translation inputID="LegIdO0000000" inputPort="0" outputID="LegIdO00000" outputPort="0"></translation>
+          <translation inputID="tradeIdentifierReference_hrefI000" inputPort="0" outputID="LegIdO0000000" outputPort="0"></translation>
+          <translation inputID="LegIdO000000001" inputPort="0" outputID="LegIdO0000000" outputPort="1"></translation>
+          <translation inputID="I002" inputPort="0" outputID="LegIdO00000" outputPort="1"></translation>
+          <translation inputID="I003" inputPort="0" outputID="LegIdO00000" outputPort="2"></translation>
+          <translation inputID="RateO00000" inputPort="0" outputID="RateO000" outputPort="0"></translation>
+          <translation inputID="FxCoreDetailsmodel_exchangeRate_rateI000" inputPort="0" outputID="RateO00000" outputPort="0"></translation>
+          <translation inputID="I001" inputPort="0" outputID="TradeIdO000" outputPort="0"></translation>
+          <output endID="0" modelRef="Legs.dod" path="Leg" required="false" typeRef="#File/Legs/Trade"></output>
+          <output endID="1" modelRef="Cashflows.dod" path="Leg" required="false" typeRef="#File/Cashflows/Trade"></output>
+          <localTransform id="MapCashflows_CashflowO00100">
+            <transform IOversion="3.1.0" encrypted="false" processingOrder="Outputs" readOnly="false" saveLayout="true" targetNamespace="http://www.c24.biz/examples/fpml/transforms" validateInputs="false" validateOutputs="false" name="MapCashflows">
+              <input endID="0" modelRef="FpML5-4-confirmation/fpml-fx-5-4.dod" path="FxCoreDetails.model/exchangedCurrency1" required="false" typeRef="FxSwapLeg"></input>
+              <input endID="1" modelRef="FpML5-4-confirmation/fpml-msg-5-4.dod" path="" required="false" typeRef="CorrelationId"></input>
+              <input endID="2" modelRef="FpML5-4-confirmation/fpml-doc-5-4.dod" path="" required="false" typeRef="TradeId"></input>
+              <input endID="3" modelRef="FpML5-4-confirmation/fpml-fx-5-4.dod" path="" required="false" typeRef="FxSwapLeg"></input>
+              <contextPath contextRef="Amount" endID="0" input="false" id="AmountO000"></contextPath>
+              <transformMethod name="CAST" type="#number_double" x="200" y="200" id="AmountO00000"></transformMethod>
+              <contextPath contextRef="Currency" endID="0" input="false" id="CurrencyO000"></contextPath>
+              <contextPath contextRef="FxCoreDetails.model/FxCoreDetails.model-SG1/valueDate" endID="3" input="true" id="FxCoreDetailsmodel_FxCoreDetailsmodelSG1_valueDateI003"></contextPath>
+              <contextPath contextRef="" endID="1" input="true" id="I001"></contextPath>
+              <contextPath contextRef="" endID="2" input="true" id="I002"></contextPath>
+              <contextPath contextRef="LegId" endID="0" input="false" id="LegIdO000"></contextPath>
+              <contextPath contextRef="Payer" endID="0" input="false" id="PayerO000"></contextPath>
+              <contextPath contextRef="PayerReceiver.model/payerPartyReference/@href" endID="0" input="true" id="PayerReceivermodel_payerPartyReference_hrefI000"></contextPath>
+              <contextPath contextRef="PayerReceiver.model/receiverPartyReference/@href" endID="0" input="true" id="PayerReceivermodel_receiverPartyReference_hrefI000"></contextPath>
+              <contextPath contextRef="Receiver" endID="0" input="false" id="ReceiverO000"></contextPath>
+              <contextPath contextRef="TradeId" endID="0" input="false" id="TradeIdO000"></contextPath>
+              <contextPath contextRef="ValueDate" endID="0" input="false" id="ValueDateO000"></contextPath>
+              <transformMethod name="CONVERTDATE" type="#date_generic" x="297" y="408" id="ValueDateO00000"></transformMethod>
+              <contextPath contextRef="paymentAmount/amount" endID="0" input="true" id="paymentAmount_amountI000"></contextPath>
+              <contextPath contextRef="paymentAmount/currency" endID="0" input="true" id="paymentAmount_currencyI000"></contextPath>
+              <translation inputID="AmountO00000" inputPort="0" outputID="AmountO000" outputPort="0"></translation>
+              <translation inputID="paymentAmount_amountI000" inputPort="0" outputID="AmountO00000" outputPort="0"></translation>
+              <translation inputID="paymentAmount_currencyI000" inputPort="0" outputID="CurrencyO000" outputPort="0"></translation>
+              <translation inputID="I002" inputPort="0" outputID="LegIdO000" outputPort="0"></translation>
+              <translation inputID="PayerReceivermodel_payerPartyReference_hrefI000" inputPort="0" outputID="PayerO000" outputPort="0"></translation>
+              <translation inputID="PayerReceivermodel_receiverPartyReference_hrefI000" inputPort="0" outputID="ReceiverO000" outputPort="0"></translation>
+              <translation inputID="I001" inputPort="0" outputID="TradeIdO000" outputPort="0"></translation>
+              <translation inputID="ValueDateO00000" inputPort="0" outputID="ValueDateO000" outputPort="0"></translation>
+              <translation inputID="FxCoreDetailsmodel_FxCoreDetailsmodelSG1_valueDateI003" inputPort="0" outputID="ValueDateO00000" outputPort="0"></translation>
+              <output endID="0" modelRef="Cashflows.dod" path="Cashflow" required="false" typeRef="File/Leg"></output>
+            </transform>
+          </localTransform>
+        </transform>
+      </localTransform>
+      <filter id="NearLegUTI_RowO0010002">
+        <filter name="NearLegUTI">
+          <input endID="0" modelRef="FpML5-4-confirmation/fpml-confirmation-processes-5-4.dod" path="Events.model/Events.model-SG1/trade/tradeHeader/partyTradeIdentifier" required="false" typeRef="RequestConfirmation"></input>
+          <contextPath contextRef="any" endID="1" input="false" id="anyO001"></contextPath>
+          <contextPath contextRef="TradeIdentifier-SG1/TradeIdentifier-SG2/tradeId" endID="0" input="true" id="anyO00100"></contextPath>
+          <contextPath contextRef="boolean" endID="0" input="false" id="booleanO000"></contextPath>
+          <transformMethod name="EQUALS" x="265" y="59" id="booleanO00000"></transformMethod>
+          <contextPath contextRef="@id" endID="0" input="true" id="booleanO0000000"></contextPath>
+          <constant constant="nearLegId" id="booleanO0000001"></constant>
+          <translation inputID="anyO00100" inputPort="0" outputID="anyO001" outputPort="0"></translation>
+          <translation inputID="booleanO00000" inputPort="0" outputID="booleanO000" outputPort="0"></translation>
+          <translation inputID="booleanO0000000" inputPort="0" outputID="booleanO00000" outputPort="0"></translation>
+          <translation inputID="booleanO0000001" inputPort="0" outputID="booleanO00000" outputPort="1"></translation>
+        </filter>
+      </filter>
+      <filter id="Party1_Party1O00000">
+        <filter name="Party1">
+          <input endID="0" modelRef="FpML5-4-confirmation/fpml-confirmation-processes-5-4.dod" path="Events.model/Events.model-SG1/trade/tradeHeader/partyTradeIdentifier" required="false" typeRef="RequestConfirmation"></input>
+          <contextPath contextRef="any" endID="1" input="false" id="anyO001"></contextPath>
+          <contextPath contextRef="TradeIdentifier-SG1/TradeIdentifier-SG3/TradeIdentifier-SG4/tradeId" endID="0" input="true" id="anyO00100"></contextPath>
+          <contextPath contextRef="boolean" endID="0" input="false" id="booleanO000"></contextPath>
+          <transformMethod name="EQUALS" x="212" y="82" id="booleanO00000"></transformMethod>
+          <contextPath contextRef="TradeIdentifier-SG1/TradeIdentifier-SG3/PartyAndAccountReferences.model/partyReference/@href" endID="0" input="true" id="booleanO0000000"></contextPath>
+          <constant constant="party1" id="booleanO0000001"></constant>
+          <translation inputID="anyO00100" inputPort="0" outputID="anyO001" outputPort="0"></translation>
+          <translation inputID="booleanO00000" inputPort="0" outputID="booleanO000" outputPort="0"></translation>
+          <translation inputID="booleanO0000000" inputPort="0" outputID="booleanO00000" outputPort="0"></translation>
+          <translation inputID="booleanO0000001" inputPort="0" outputID="booleanO00000" outputPort="1"></translation>
+        </filter>
+      </filter>
+      <filter id="Party2_Party2O00000">
+        <filter name="Party2">
+          <input endID="0" modelRef="FpML5-4-confirmation/fpml-confirmation-processes-5-4.dod" path="Events.model/Events.model-SG1/trade/tradeHeader/partyTradeIdentifier" required="false" typeRef="RequestConfirmation"></input>
+          <contextPath contextRef="any" endID="1" input="false" id="anyO001"></contextPath>
+          <contextPath contextRef="TradeIdentifier-SG1/TradeIdentifier-SG3/TradeIdentifier-SG4/tradeId" endID="0" input="true" id="anyO00100"></contextPath>
+          <contextPath contextRef="boolean" endID="0" input="false" id="booleanO000"></contextPath>
+          <transformMethod name="EQUALS" x="193" y="90" id="booleanO00000"></transformMethod>
+          <contextPath contextRef="TradeIdentifier-SG1/TradeIdentifier-SG3/PartyAndAccountReferences.model/partyReference/@href" endID="0" input="true" id="booleanO0000000"></contextPath>
+          <constant constant="party2" id="booleanO0000001"></constant>
+          <translation inputID="anyO00100" inputPort="0" outputID="anyO001" outputPort="0"></translation>
+          <translation inputID="booleanO00000" inputPort="0" outputID="booleanO000" outputPort="0"></translation>
+          <translation inputID="booleanO0000000" inputPort="0" outputID="booleanO00000" outputPort="0"></translation>
+          <translation inputID="booleanO0000001" inputPort="0" outputID="booleanO00000" outputPort="1"></translation>
+        </filter>
+      </filter>
+    </transform>
+  </localTransform>
+  <postTransformAction>biz.c24.examples.fpml.trades.Trades trades = (biz.c24.examples.fpml.trades.Trades)values[0][0];
+biz.c24.examples.fpml.legs.Legs legs = (biz.c24.examples.fpml.legs.Legs)values[1][0];
+biz.c24.examples.fpml.cashflows.Cashflows cashflows = (biz.c24.examples.fpml.cashflows.Cashflows)values[2][0];
+
+try {
+	java.io.FileWriter writer = new java.io.FileWriter("trades.txt");
+	biz.c24.io.api.presentation.TextualSink sink = new biz.c24.io.api.presentation.TextualSink(writer);
+	sink.writeObject(trades);
+	writer.flush();
+	
+	java.io.FileWriter writer2 = new java.io.FileWriter("legs.txt");
+	biz.c24.io.api.presentation.TextualSink sink2 = new biz.c24.io.api.presentation.TextualSink(writer2);
+	sink2.writeObject(legs);
+	writer2.flush();
+	
+	java.io.FileWriter writer3 = new java.io.FileWriter("cashflows.txt");
+	biz.c24.io.api.presentation.TextualSink sink3 = new biz.c24.io.api.presentation.TextualSink(writer3);
+	sink3.writeObject(cashflows);
+	writer3.flush();
+}
+catch(java.io.IOException ioe) {
+	throw new java.lang.RuntimeException("Unable to write file. Reason:"+ioe.getMessage());
+}
+</postTransformAction>
+  <transformTestSuite></transformTestSuite>
+</transform>

@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<dataModel IOversion="3.1.0" attributeFormDefault="Unqualified" elementFormDefault="Qualified" encoding="UTF-8" encrypted="false" hibernateIDGeneratorMethodDefault="native" targetNamespace="http://www.c24.biz/examples/fpml/cashflows" name="Cashflows.dod" version="0.0.6">
+  <classification name="File">
+    <type>
+      <complexType abstract="false" byteAlignment="No Alignment" contentModel="Sequence" excludeFromDatabase="false" processAsBatch="false" specialisation="Generic complex" specifyStructure="true" name="Cashflows">
+        <element identifier="false" max="1" min="1" typeRef="Records/Header" name="Header"></element>
+        <element identifier="false" max="-1" min="1" name="Trade">
+          <type>
+            <complexType abstract="false" byteAlignment="No Alignment" contentModel="Sequence" excludeFromDatabase="false" processAsBatch="false" specialisation="Generic complex" specifyStructure="true" name="Trade">
+              <element identifier="false" max="-1" min="1" typeRef="File/Leg" name="Leg"></element>
+            </complexType>
+          </type>
+        </element>
+      </complexType>
+    </type>
+    <element identifier="false" max="1" min="1" typeRef="File/Cashflows" name="Cashflows"></element>
+    <type>
+      <complexType abstract="false" byteAlignment="No Alignment" contentModel="Sequence" excludeFromDatabase="false" processAsBatch="false" specialisation="Generic complex" specifyStructure="true" name="Leg">
+        <element identifier="false" max="-1" min="1" typeRef="Records/Cashflow" name="Cashflow"></element>
+      </complexType>
+    </type>
+  </classification>
+  <classification name="Records">
+    <type>
+      <complexType abstract="false" byteAlignment="No Alignment" contentModel="Sequence" excludeFromDatabase="false" processAsBatch="false" specialisation="Generic complex" specifyStructure="true" name="Header">
+        <facet facetType="terminator">
+          <value>0d0a</value>
+        </facet>
+        <facet facetType="delimiter">
+          <value>Infix|true|2c!22</value>
+        </facet>
+        <facet facetType="format_type">
+          <value>Delimited</value>
+        </facet>
+        <element identifier="false" max="1" min="1" name="TradeId">
+          <type>
+            <atomicSimpleType baseType="#string" name="TradeId">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="LegId">
+          <type>
+            <atomicSimpleType baseType="#string" name="LegId">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="Payer">
+          <type>
+            <atomicSimpleType baseType="#string" name="Payer">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="Receiver">
+          <type>
+            <atomicSimpleType baseType="#string" name="Receiver">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="ValueDate">
+          <type>
+            <atomicSimpleType baseType="#string" name="ValueDate">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="Currency">
+          <type>
+            <atomicSimpleType baseType="#string" name="Currency">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="Amount">
+          <type>
+            <atomicSimpleType baseType="#string" name="Amount">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+      </complexType>
+    </type>
+    <type>
+      <complexType abstract="false" byteAlignment="No Alignment" contentModel="Sequence" excludeFromDatabase="false" processAsBatch="false" specialisation="Generic complex" specifyStructure="true" name="Cashflow">
+        <facet facetType="terminator">
+          <value>0d0a</value>
+        </facet>
+        <facet facetType="delimiter">
+          <value>Infix|true|2c!22</value>
+        </facet>
+        <facet facetType="format_type">
+          <value>Delimited</value>
+        </facet>
+        <element identifier="false" max="1" min="1" name="TradeId">
+          <type>
+            <atomicSimpleType baseType="#string" name="TradeId">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="LegId">
+          <type>
+            <atomicSimpleType baseType="#string" name="LegId">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="Payer">
+          <type>
+            <atomicSimpleType baseType="#string" name="Payer">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="Receiver">
+          <type>
+            <atomicSimpleType baseType="#string" name="Receiver">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="ValueDate">
+          <type>
+            <atomicSimpleType baseType="#date_generic" name="ValueDate">
+              <facet facetType="date_format">
+                <value>dd/MM/yyyy|false</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="Currency">
+          <type>
+            <atomicSimpleType baseType="#string" name="Currency">
+              <facet facetType="min_length">
+                <value>0</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+        <element identifier="false" max="1" min="1" name="Amount">
+          <type>
+            <atomicSimpleType baseType="#number_double" name="Amount">
+              <facet facetType="number_format">
+                <value>#0.#;'-'#0.#</value>
+              </facet>
+              <facet facetType="decimal_separator">
+                <value>2e</value>
+              </facet>
+            </atomicSimpleType>
+          </type>
+        </element>
+      </complexType>
+    </type>
+  </classification>
+</dataModel>
